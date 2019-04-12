@@ -2,5 +2,9 @@
   "extends": [
     "config:base",
     ":preserveSemverRanges"
-  ]
+  ],
+  "packageRules": [{
+    "updateTypes": ["major"],
+    "rangeStrategy": "bump"
+  }]
 }
